@@ -9,6 +9,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa6";
 import { SiPostman } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { IoLogoJavascript } from "react-icons/io";
 
 const skills = [
   {
@@ -19,11 +20,6 @@ const skills = [
     skill: "Python",
     icon: FaPython,
   },
-  {
-    skill: "GIT",
-    icon: FaGit,
-  },
-  ,
   {
     skill: "Gen AI",
     icon: GiArtificialIntelligence,
@@ -39,11 +35,18 @@ const skills = [
   {
     skill: "React",
     icon: FaReact,
-  }
-  ,
+  },
+  {
+    skill: "Javascript",
+    icon: IoLogoJavascript,
+  },
   {
     skill: "Postman",
     icon: SiPostman,
+  },
+  {
+    skill: "GIT",
+    icon: FaGit,
   }
 ];
 
