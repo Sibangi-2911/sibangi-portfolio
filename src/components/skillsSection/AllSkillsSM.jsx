@@ -1,14 +1,12 @@
-import { SiSpring } from "react-icons/si";
+import { FaGit } from "react-icons/fa6";
 import { FaJava } from "react-icons/fa";
-import { SiKubernetes } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
-import { VscAzureDevops } from "react-icons/vsc";
+import { SiFoodpanda } from "react-icons/si";
+import { FaReact } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
-import { SiApachekafka } from "react-icons/si";
-import { TbBrandTerraform } from "react-icons/tb";
 import { FaPython } from "react-icons/fa6";
-import { FaDocker } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { IoLogoJavascript } from "react-icons/io";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -18,44 +16,36 @@ const skills = [
     icon: FaJava,
   },
   {
-    skill: "Spring Boot",
-    icon: SiSpring,
+    skill: "Python",
+    icon: FaPython,
   },
   {
-    skill: "Kubernetes",
-    icon: SiKubernetes,
-  },
-  {
-    skill: "AWS",
-    icon: FaAws,
-  },
-  {
-    skill: "Azure",
-    icon: VscAzureDevops,
+    skill: "Gen AI",
+    icon: GiArtificialIntelligence,
   },
   {
     skill: "NodeJS",
     icon: FaNodeJs,
   },
   {
-    skill: "Kafka",
-    icon: SiApachekafka,
+    skill: "Pandas",
+    icon: SiFoodpanda,
   },
   {
-    skill: "Terraform",
-    icon: TbBrandTerraform,
+    skill: "React",
+    icon: FaReact,
   },
   {
-    skill: "Python",
-    icon: FaPython,
+    skill: "Javascript",
+    icon: IoLogoJavascript,
   },
   {
-    skill: "Docker",
-    icon: FaDocker,
+    skill: "Postman",
+    icon: SiPostman,
   },
   {
-    skill: "Gen AI",
-    icon: GiArtificialIntelligence,
+    skill: "GIT",
+    icon: FaGit,
   }
 ];
 
